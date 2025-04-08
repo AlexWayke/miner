@@ -1,0 +1,27 @@
+.play-field {
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 2px;
+  flex-direction: column;
+  &__row {
+    flex: 1 1 100%;
+    display: flex;
+    gap: 2px;
+  }
+  &__cell {
+    flex: 1 1 100%;
+    aspect-ratio: 1/1;
+    background: #45a29e;
+    border-radius: 4px;
+    color: #45a29e;
+    &.mined {
+      background-color: #c5c6c750;
+    }
+    &.open {
+      background-color: #c5c6c750;
+    }
+  }
+}
