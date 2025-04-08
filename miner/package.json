@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --color",
-    "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged --config lint-staged.js"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.3",
     "lint-staged": "^15.5.0",
     "prettier": "^3.5.3",
     "sass-embedded": "^1.86.2",
