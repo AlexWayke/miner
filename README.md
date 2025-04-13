@@ -1,4 +1,7 @@
 # miner
+---
+
+Deploy: https://miner-git-development-alexanderpoltavskys-projects.vercel.app/
 
 ---
 
