@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --color",
     "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "lint-staged": "lint-staged --config lint-staged.js"
   },
   "dependencies": {
