@@ -1,0 +1,13 @@
+.smile {
+  width: 32px;
+  height: 32px;
+  background: #45a29e;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & img {
+    width: 75%;
+    height: 75%;
+  }
+}

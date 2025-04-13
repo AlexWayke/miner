@@ -3,10 +3,10 @@
   width: 100%;
   background: #c5c6c750;
   display: flex;
+  justify-content: end;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 20px;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
 }
