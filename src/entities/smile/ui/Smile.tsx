@@ -13,7 +13,7 @@ function Smile({
 
   return (
     <div className="smile">
-      <img src={"/src/shared/img/smile_" + currentSmile + ".svg"} alt="img" />
+      <img src={"/smile_" + currentSmile + ".svg"} alt="img" />
     </div>
   );
 }
