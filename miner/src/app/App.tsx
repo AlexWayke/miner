@@ -1,16 +1,15 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.scss'
-import PlayField from '../pages/playfield/ui/PlayPage'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.scss";
+import PlayPage from "../pages/playPage/ui/PlayPage";
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PlayField />} />
+        <Route path="/" element={<PlayPage />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
